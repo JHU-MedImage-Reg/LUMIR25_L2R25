@@ -1,0 +1,7 @@
+
+evalutils==0.4.2
+nibabel==5.1.0
+numpy==1.26.4
+scipy
+#surface-distance @ git+https://github.com/deepmind/surface-distance/@master
+
