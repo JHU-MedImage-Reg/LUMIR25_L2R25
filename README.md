@@ -4,7 +4,7 @@
 This official repository houses baseline methods, training scripts, and pretrained models for the LUMIR challenge at Learn2Reg 2025.\
 The challenge is dedicated to ***unsupervised*** brain MRI image registration and offers a comprehensive dataset of over 5000 preprocessed T1-weighted 3D brain MRI images, available for training, testing, and validation purposes.
 
-Please visit ***learn2reg.grand-challenge.org*** for more information.
+Please visit [***learn2reg.grand-challenge.org***](https://learn2reg.grand-challenge.org/learn2reg-2025/) for more information.
 
 $${\color{red}New!}$$ - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 2025!
 
