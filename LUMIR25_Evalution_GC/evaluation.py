@@ -282,7 +282,7 @@ def to_json(cases_results1, cases_results2, cases_results3, cases_results4, OUTP
     with open(os.path.join(OUTPUT_PATH), 'w', encoding='utf-8') as f:
         json.dump(OrderedDict({'name': name,
                    'aggregates': aggregated_results,
-                   'cases': cases_OOD_results,
+                   'cases': cases_results,
                    'eval_version': '3.0'}), f, indent=4, allow_nan=True)
 
 
