@@ -10,8 +10,8 @@ $${\color{red}New!}$$ - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 
 
 ## Dataset: 
 - ***Download Training Dataset:*** Access the training dataset via Google Drive ([~51GB](https://drive.google.com/uc?export=download&id=1c9OWODseHA-2cLCkcRKKu_NxouhKOUyY)).
-- ***Download Validation Dataset:*** Access the validation dataset via Google Drive ([~430MB](https://drive.google.com/uc?export=download&id=1usjBMfFiuiKSTXa-2QK1jp2xXNjNxQ3p)).
-    - To support participants, we also provide ***coarse anatomical label maps (10 classes)*** for the validation datasets, enabling participants to perform quick self-validation prior to leaderboard submission. However, evaluations on the leaderboard as well as the test phase will be conducted on ***much finer anatomical structures (over 100 classes)***. Access the simplified label maps via Google Drive ([~14MB](https://drive.google.com/uc?export=download&id=11dRS8tMoATAyXxCOmxyLiLOykQvA9v38)).
+- ***Download Validation Dataset:*** Access the validation dataset via Google Drive ([~430MB](https://drive.google.com/uc?export=download&id=1Zsgt03tvOe9SGMo85d1fM_wZpRkSDLVv)).
+    - To support participants, we also provide ***coarse anatomical label maps (10 classes)*** for the validation datasets, enabling participants to perform quick self-validation prior to leaderboard submission. However, evaluations on the leaderboard as well as the test phase will be conducted on ***much finer anatomical structures (over 100 classes)***. Access the simplified label maps via Google Drive ([~14MB](https://drive.google.com/uc?export=download&id=1c1gY-2c43uiEt599yha5FszdfZLcUZxa)).
 - ***Preprocessing:*** The OpenBHB dataset underwent initial preprocessing by its creators, which included skull stripping and affine registration. For comprehensive details, refer to the [OpenBHB GitHub](https://baobablab.github.io/bhb/dataset) page and their [article](https://www.sciencedirect.com/science/article/pii/S1053811922007522). Subsequently, we performed N4 bias correction with ITK and intensity normalization using a [pre-existing tool](https://github.com/jcreinhold/intensity-normalization).
 - ***Annotation:*** We conducted segmentation of the anatomical structures using automated software. To enhance the dataset for evaluation purposes, an experienced radiologist and neurologist contributed manual landmark annotations to a subset of the images.
 - ***Image size:*** The dimensions of each image are `160 x 224 x 192`.
@@ -27,7 +27,7 @@ $${\color{red}New!}$$ - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 
             LUMIRMRI_3454_0000.nii.gz
             LUMIRMRI_3455_0000.nii.gz
     ```
-- ***Dataset json file:*** [LUMIR25_dataset.json](https://drive.google.com/uc?export=download&id=1IHt0I0HQXnmlwqj5rwXiNEa15fUUFtbf)
+- ***Dataset json file:*** [LUMIR25_dataset.json](https://drive.google.com/uc?export=download&id=164Flc1C6oufONGimvpKlrNtq5t3obXEo)
 
 ## Baseline methods:
 ***Learning-based models:***
