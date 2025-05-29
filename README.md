@@ -35,6 +35,8 @@ TBA
 
 ***Learning-based foundation models:***
 - SynthMorph ([Official website](https://martinos.org/malte/synthmorph/) | [Scripts](https://github.com/JHU-MedImage-Reg/LUMIR_L2R/tree/main/SynthMorph))
+- ConvexAdam ([Official website](https://github.com/multimodallearning/convexAdam) | [Scripts](https://github.com/JHU-MedImage-Reg/LUMIR25_L2R25/tree/main/Baseline_Methods/ConvexAdam))
+- SynthSR + VFA ([SynthSR official website](https://github.com/BBillot/SynthSR) | [VFA official website](https://github.com/yihao6/vfa/) | [Scripts](https://github.com/JHU-MedImage-Reg/LUMIR25_L2R25/tree/main/Baseline_Methods/VFA))
 
 ***Optimization-based methods:***
 - SyN (ATNs) TBA
