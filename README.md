@@ -6,7 +6,7 @@ The challenge is dedicated to ***unsupervised*** brain MRI image registration an
 
 Please visit [***learn2reg.grand-challenge.org***](https://learn2reg.grand-challenge.org/learn2reg-2025/) for more information.
 
-$${\color{red}New!}$$ - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 2025!
+New! - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 2025!
 
 ## Dataset: 
 - ***Download Training Dataset:*** Access the training dataset via Google Drive ([~51GB](https://drive.google.com/uc?export=download&id=1c9OWODseHA-2cLCkcRKKu_NxouhKOUyY)).
