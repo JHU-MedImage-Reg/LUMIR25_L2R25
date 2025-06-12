@@ -6,7 +6,8 @@ The challenge is dedicated to ***unsupervised*** brain MRI image registration an
 
 Please visit [***learn2reg.grand-challenge.org***](https://learn2reg.grand-challenge.org/learn2reg-2025/) for more information.
 
-New! - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 2025!
+$${\color{red}New!}$$ - 06/01/2025 - Check out our preprint summarizing LUMIR 2024 -> [![arXiv](https://img.shields.io/badge/arXiv-2505.24160-b31b1b.svg)](https://arxiv.org/abs/2505.24160)\
+$${\color{red}New!}$$ - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 2025!
 
 ## Dataset: 
 - ***Download Training Dataset:*** Access the training dataset via Google Drive ([~51GB](https://drive.google.com/uc?export=download&id=1c9OWODseHA-2cLCkcRKKu_NxouhKOUyY)).
@@ -65,7 +66,13 @@ Submissions must be uploaded as zip file containing displacement fields (displac
 Note for PyTorch users: When using PyTorch as deep learning framework you are most likely to transform your images with the `grid_sample()` routine. Please be aware that this function uses a different convention than ours, expecting displacement fields in the format `[X, Y, Z,[x, y, z]]` and normalized coordinates between -1 and 1. Prior to your submission you should therefore convert your displacement fields to match our convention.
 
 ## Citations for dataset usage:
-
+    @article{chen2025beyond,
+    title={Beyond the LUMIR challenge: The pathway to foundational registration models},
+    author={Chen, Junyu and Wei, Shuwen and Honkamaa, Joel and Marttinen, Pekka and Zhang, Hang and Liu, Min and Zhou, Yichao and Tan, Zuopeng and Wang, Zhuoyuan and Wang, Yi and others},
+    journal={arXiv preprint arXiv:2505.24160},
+    year={2025}
+    }
+    
     @article{dufumier2022openbhb,
     title={Openbhb: a large-scale multi-site brain mri data-set for age prediction and debiasing},
     author={Dufumier, Benoit and Grigis, Antoine and Victor, Julie and Ambroise, Corentin and Frouin, Vincent and Duchesnay, Edouard},
