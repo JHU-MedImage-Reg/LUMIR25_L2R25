@@ -9,6 +9,10 @@ Please visit [***learn2reg.grand-challenge.org***](https://learn2reg.grand-chall
 $${\color{red}New!}$$ - 06/01/2025 - Check out our preprint summarizing LUMIR 2024 -> [![arXiv](https://img.shields.io/badge/arXiv-2505.24160-b31b1b.svg)](https://arxiv.org/abs/2505.24160)\
 $${\color{red}New!}$$ - 05/06/2025 - Launching the LUMIR challenge at Learn2Reg 2025!
 
+## LUMIR25 Detailed Rankings
+![Detailed_rankings](https://github.com/user-attachments/assets/3ddafd8e-6f54-474d-bd77-0e73125dbd00)
+
+
 ## Dataset: 
 - ***Download Training Dataset:*** Access the training dataset via Google Drive ([~51GB](https://drive.google.com/uc?export=download&id=1c9OWODseHA-2cLCkcRKKu_NxouhKOUyY)).
 - ***Download Validation Dataset:*** Access the validation dataset via Google Drive ([~430MB](https://drive.google.com/uc?export=download&id=1Zsgt03tvOe9SGMo85d1fM_wZpRkSDLVv)).
